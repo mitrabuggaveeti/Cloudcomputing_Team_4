@@ -78,39 +78,41 @@ In summary, the project aims to address the specific problem of vehicle loan def
 
 ## Literature Review:
 
-Conducted a literature review of several research papers, articles, and books related to the domain of credit risk assessment and prediction for vehicle loans. The purpose was to stay informed about the latest advancements and best practices in this field. Here are the summaries and insights from the sources referenced.
+# L&T Vehicle Loan Default Prediction
 
+## Overview
 
-* ### Credit Risk: Definition, Role of Ratings, and Examples (https://www.investopedia.com/terms/c/creditrisk.asp)
+This project aims to predict loan defaults for L&T vehicle loans using machine learning techniques. The following literature review provides valuable insights into credit risk assessment and prediction for vehicle loans.
 
-1. Credit Risk Definition: Credit risk is defined as the likelihood of a financial loss occurring due to a borrower's failure to repay a loan, impacting cash flows and collection costs.
-2. Creditworthiness Factors: Lenders assess credit risk by analyzing factors such as credit history, capacity to repay, capital, loan conditions, and collateral, known as the "five Cs of credit."
-3. Impact on Interest Rates: Borrowers with higher perceived credit risk are subject to higher interest rates, while those with strong credit profiles receive more favorable loan terms.
-4. Role of Credit Rating Agencies: Bond credit-rating agencies, such as Moody's and Fitch, evaluate the credit risks of bond issuers and municipalities, influencing investors' decisions based on credit ratings.
+## Literature Review
 
-* ### Credit Scoring with Machine Learning  (https://medium.com/henry-jia/how-to-score-your-credit-1c08dd73e2ed)
-1. Project Motivation: Creditworthiness is crucial for service providers, and credit scoring simplifies this assessment by developing a scorecard.
-2. Data Exploration and Feature Engineering: The article explains how to handle missing values, treat outliers, and group features through binning.
-3. Weight of Evidence (WoE) and Information Value (IV): These concepts are introduced to assign unique values to categorical variables and measure predictive power for feature selection.
-4. Model Fitting and Scorecard Calculation: Logistic regression is used, and data processing significantly improves accuracy.
+### 1. [Credit Risk: Definition, Role of Ratings, and Examples](https://www.investopedia.com/terms/c/creditrisk.asp)
 
-* ### Machine Learning: Challenges, Lessons, and Opportunities in Credit Risk Modeling
-(https://www.moodysanalytics.com/risk-perspectives-magazine/managing-disruption/spotlight/machine-learning-challenges-lessons-and-opportunities-in-credit-risk-modeling)
-1. Machine learning has become essential in credit risk modeling thanks to increased data availability and computing power.
-2. Machine learning models excel in predicting defaults, especially when incorporating behavioral data like credit line usage and loan payment behavior.
-3. Challenges with machine learning models include overfitting, complex and less interpretable predictions, and sensitivity to outliers.
+- **Credit Risk Definition:** The likelihood of a financial loss due to a borrower's failure to repay a loan, impacting cash flows and collection costs.
+- **Creditworthiness Factors:** Lenders assess credit risk based on credit history, capacity to repay, capital, loan conditions, and collateral (the "five Cs of credit").
+- **Role of Credit Rating Agencies:** Bond credit-rating agencies evaluate credit risks, influencing investor decisions based on credit ratings.
 
-* ### Designing next-generation credit-decisioning models (https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/designing-next-generation-credit-decisioning-models)
-1. The article discusses the importance of advanced credit-decisioning models in the banking sector, highlighting their ability to make precise lending decisions and enhance operational efficiency.
-2. Challenges in transitioning to new credit models include data limitations, subjective assessments, and inflexible legacy models, but the benefits, such as increased revenue and reduced credit losses, are significant.
-3. Banks that don't adopt next-generation credit models may face challenges due to outdated historical data and increasing competition from fintech companies and challenger banks.
-4. The article outlines four best practices for designing credit models, including implementing a modular architecture, expanding data sources, mining data for credit signals, and leveraging business expertise to improve credit decisions and meet future challenges.
+### 2. [Credit Scoring with Machine Learning](https://medium.com/henry-jia/how-to-score-your-credit-1c08dd73e2ed)
 
-* ### RESPONSIBLE LENDING BY WORLD BANK (https://documents1.worldbank.org/curated/en/596151468336064796/pdf/832840WP0GFDR00Box0382083B00PUBLIC0.pdf)
-1. The paper outlines government interventions for promoting responsible lending, encompassing information provision, consumer education, lender behavior requirements, and regulatory loan limits.
-2. Regulators establishing responsible lending frameworks must comprehensively address various aspects, understand retail credit markets, and conduct impact assessments to avoid potential negative consequences like financial exclusion or increased credit costs.
-3. The paper emphasizes the need for better data on lending markets and consumer behavior to inform regulatory rules that encourage responsible lending while maintaining financial inclusion and credit market growth.
+- **Project Motivation:** Creditworthiness is crucial, and credit scoring simplifies assessment through a scorecard.
+- **Data Exploration and Feature Engineering:** Discusses handling missing values, treating outliers, and grouping features through binning.
+- **Weight of Evidence (WoE) and Information Value (IV):** Introduces concepts for assigning unique values to categorical variables and measuring predictive power.
+- **Model Fitting and Scorecard Calculation:** Utilizes logistic regression, highlighting the significance of data processing for accuracy.
 
+### 3. [Machine Learning: Challenges, Lessons, and Opportunities in Credit Risk Modeling](https://www.moodysanalytics.com/risk-perspectives-magazine/managing-disruption/spotlight/machine-learning-challenges-lessons-and-opportunities-in-credit-risk-modeling)
+
+- Machine learning is crucial in credit risk modeling, excelling in predicting defaults, especially with behavioral data.
+- Challenges include overfitting, complex and less interpretable predictions, and sensitivity to outliers.
+
+### 4. [Designing next-generation credit-decisioning models](https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/designing-next-generation-credit-decisioning-models)
+
+- Discusses the importance of advanced credit-decisioning models, challenges in transitioning, and benefits such as increased revenue and reduced credit losses.
+- Outlines four best practices for designing credit models.
+
+### 5. [RESPONSIBLE LENDING BY WORLD BANK](https://documents1.worldbank.org/curated/en/596151468336064796/pdf/832840WP0GFDR00Box0382083B00PUBLIC0.pdf)
+
+- Outlines government interventions for promoting responsible lending, emphasizing the need for better data on lending markets and consumer behavior.
+- Regulators establishing responsible lending frameworks must comprehensively address various aspects.
 
 ## DataSources:
 
