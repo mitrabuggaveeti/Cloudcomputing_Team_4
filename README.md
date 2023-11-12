@@ -48,7 +48,7 @@ Key Characteristics:
 
 3. Regulatory Environment: The financial industry is highly regulated, and there are strict guidelines and regulations in place to ensure responsible lending practices. Accurate credit risk assessment is crucial to compliance with these regulations.
 
-### Challenges:
+* ### Challenges:
 
 1. Loan Default Risk: One of the primary challenges in the industry is the risk of borrowers defaulting on their vehicle loans. This can result in substantial financial losses for the lending institutions.
 
@@ -56,7 +56,7 @@ Key Characteristics:
 
 3. Model Interpretability: Building accurate predictive models is important, but it is equally important to make these models interpretable so that financial institutions can understand the factors influencing loan default.
 
-### Opportunities:
+* ### Opportunities:
 
 1. Improved Risk Assessment: By developing an accurate credit risk scoring model, financial institutions can make more informed lending decisions, leading to a reduction in loan defaults and losses.
 
@@ -64,7 +64,7 @@ Key Characteristics:
 
 3. Data-Driven Insights: Through data analysis, the project can provide insights into the key determinants of loan default, helping financial institutions design risk management strategies and refine underwriting standards.
 
-### Stakeholders:
+* ### Stakeholders:
 
 The stakeholders in this domain who will benefit from the project include:
 
@@ -77,7 +77,7 @@ The stakeholders in this domain who will benefit from the project include:
 In summary, the project aims to address the specific problem of vehicle loan default prediction by developing an accurate credit risk scoring model, ultimately benefiting financial institutions, borrowers, and regulatory authorities in the financial services industry.
 
 
-### DataSources:
+* ### DataSources:
 
 Potential Data Sources:
 
@@ -98,9 +98,9 @@ Challenges in Choosing the Domain and Dataset:
 The data sources for this project can be obtained from the following link on Kaggle: https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction. 
 The dataset contains information about loan applicants, loan details, and bureau data, which are essential for building a credit risk scoring model.
 
-## Literature Review:
-## Data Source(s): 
-## Domain-specific Challenges:
+* ## Literature Review:
+* ## Data Source(s): 
+* ## Domain-specific Challenges:
 ## KPI’s: 
 
 
