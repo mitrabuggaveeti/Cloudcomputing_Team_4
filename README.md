@@ -76,16 +76,7 @@ The stakeholders in this domain who will benefit from the project include:
 
 In summary, the project aims to address the specific problem of vehicle loan default prediction by developing an accurate credit risk scoring model, ultimately benefiting financial institutions, borrowers, and regulatory authorities in the financial services industry.
 
-## Literature Review:
-
-# L&T Vehicle Loan Default Prediction
-
-## Overview
-
-This project aims to predict loan defaults for L&T vehicle loans using machine learning techniques. The following literature review provides valuable insights into credit risk assessment and prediction for vehicle loans.
-
 ## Literature Review
-
 ### 1. [Credit Risk: Definition, Role of Ratings, and Examples](https://www.investopedia.com/terms/c/creditrisk.asp)
 
 - **Credit Risk Definition:** The likelihood of a financial loss due to a borrower's failure to repay a loan, impacting cash flows and collection costs.
