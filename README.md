@@ -135,6 +135,39 @@ The dataset contains information about loan applicants, loan details, and bureau
 
 
 ## Domain-specific Challenges:
+
+There are several domain-specific challenges that are need to be considered those are :
+### 1. Data Security
+
+- The dataset contains highly sensitive financial information, including account details and government IDs.
+- Ensure robust data security measures, including encryption and access controls, to prevent unauthorized access.
+
+### 2. Ethical Considerations
+
+- The dataset includes personally identifiable information (PII) such as IDs, names, and dates of birth.
+- Strict ethical considerations must be followed to protect customer privacy and comply with data protection standards.
+
+### 3. Regulatory Compliance
+
+- Financial companies must adhere to regulations such as GDPR, HIPAA, or other local financial data protection laws.
+- Ensure transparent data processing, explicit consent for data collection, and compliance with regulatory requirements.
+
+### 4. Imbalanced Datasets
+
+- Financial data often exhibits imbalanced datasets, especially in terms of fraudulent and non-fraudulent transactions.
+- Implement techniques like oversampling, undersampling, and advanced algorithms to address imbalanced datasets and improve model performance.
+
+### 5. Fraud Detection
+
+- In addition to predicting loan defaults, the model needs to incorporate fraud detection mechanisms to prevent financial losses.
+- Consider incorporating fraud detection algorithms and techniques into the overall predictive model.
+
+### 6. Data Quality and Integration
+
+- Ensure the financial data used for analysis is of high quality, including consistency, accuracy, and completeness.
+- Address challenges related to data integration from multiple sources, maintaining data integrity throughout the process.
+
+
 ## KPI’s: 
 
 
