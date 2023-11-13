@@ -23,15 +23,15 @@ The machine learning model will utilize information from various datasets, inclu
 
 The project aligns with the educational program goals of AWS Academy Cloud Foundations and Data Engineering by incorporating key elements of data analysis, machine learning, and cloud computing. Specifically, it involves:
 
-* Data Engineering: The project requires handling and processing large datasets containing diverse information about loan applicants. This involves data cleaning, transformation, and integration to create a cohesive dataset for model training.
+*  **Data Engineering:** The project requires handling and processing large datasets containing diverse information about loan applicants. This involves data cleaning, transformation, and integration to create a cohesive dataset for model training.
 
-* Machine Learning: The core of the project involves developing a predictive model using machine learning algorithms. This includes selecting appropriate algorithms, feature engineering, model training, and evaluation.
+* **Machine Learning:** The core of the project involves developing a predictive model using machine learning algorithms. This includes selecting appropriate algorithms, feature engineering, model training, and evaluation.
 
-* Cloud Computing: The use of AWS services can enhance the scalability, flexibility, and efficiency of the project. Cloud services like Amazon S3 for storage, AWS Glue for ETL (Extract, Transform, Load), and SageMaker for machine learning model deployment can be incorporated.
+* **Cloud Computing:** The use of AWS services can enhance the scalability, flexibility, and efficiency of the project. Cloud services like Amazon S3 for storage, AWS Glue for ETL (Extract, Transform, Load), and SageMaker for machine learning model deployment can be incorporated.
 
-* Analytics and Insights: The project aims to provide valuable insights into the determinants of vehicle loan default. This aligns with the goal of deriving actionable intelligence from data, a key aspect of data analytics.
+* **Analytics and Insights:** The project aims to provide valuable insights into the determinants of vehicle loan default. This aligns with the goal of deriving actionable intelligence from data, a key aspect of data analytics.
 
-* Risk Management: The project directly addresses the financial institution's need for better credit risk assessment. This aligns with the broader theme of risk management in data-driven decision-making, a crucial aspect covered in the educational program.
+* **Risk Management:** The project directly addresses the financial institution's need for better credit risk assessment. This aligns with the broader theme of risk management in data-driven decision-making, a crucial aspect covered in the educational program.
 
 By successfully completing this project, the financial institution can optimize its loan approval process, reduce default rates, and make informed decisions based on predictive analytics. Notably, the anticipated outcome includes a substantial reduction in default rates, an important metric that directly impacts the institution's financial health. By accurately identifying the key determinants of default within the critical period of the first EMI on the due date, the model empowers the institution to proactively address risk factors and refine its underwriting criteria. This, in turn, contributes to a more robust lending portfolio, fostering sustainable growth and minimizing the financial challenges associated with loan defaults. Additionally, identifying key determinants of default can contribute to ongoing efforts to minimize risks associated with vehicle loans.
 
@@ -77,6 +77,10 @@ The stakeholders in this domain who will benefit from the project include:
 In summary, the project aims to address the specific problem of vehicle loan default prediction by developing an accurate credit risk scoring model, ultimately benefiting financial institutions, borrowers, and regulatory authorities in the financial services industry.
 
 ## Literature Review
+
+
+Conducted a literature review of several research papers, articles, and books related to the domain of credit risk assessment and prediction for vehicle loans. The purpose was to stay informed about the latest advancements and best practices in this field. Here are the summaries and insights from the sources referenced.
+
 ### 1. [Credit Risk: Definition, Role of Ratings, and Examples](https://www.investopedia.com/terms/c/creditrisk.asp)
 
 - **Credit Risk Definition:** The likelihood of a financial loss due to a borrower's failure to repay a loan, impacting cash flows and collection costs.
@@ -160,7 +164,44 @@ There are several domain-specific challenges that are need to be considered thos
 - Ensure the financial data used for analysis is of high quality, including consistency, accuracy, and completeness.
 - Address challenges related to data integration from multiple sources, maintaining data integrity throughout the process.
 
+## Key Performance Indicators (KPIs) and Metrics
 
-## KPI’s: 
+A KPI is a measurable value that helps assess the performance and effectiveness of an organization, project, or individual. KPIs are specific metrics used to gauge progress toward goals, providing a clear indication of success or areas that may need improvement.
+ 
+In the context of predicting the probability of loan default for a vehicle loan, several key performance indicators (KPIs) and measures of success are crucial to evaluate the effectiveness of your machine learning model. The choice of metrics depends on the specific goals and priorities of the financial institution. Here are some relevant KPIs and metrics:
+ 
+### Accuracy:
 
+- **Definition:** The proportion of correctly predicted instances (both default and non-default).
+- **Importance:** Fundamental metric; consider in conjunction with other metrics due to potential class imbalance.
+
+### Precision:
+
+- **Definition:** The proportion of predicted defaults that are true defaults.
+- **Importance:** Essential for minimizing false positives; a higher precision indicates fewer false positives.
+
+### Recall (Sensitivity):
+
+- **Definition:** The proportion of true defaults that are correctly predicted.
+- **Importance:** Crucial for identifying most actual defaults; a higher recall indicates a lower number of false negatives.
+
+### F1 Score:
+
+- **Definition:** The harmonic means of precision and recall.
+- **Importance:** Relevant for imbalanced cases; provides a balanced measure of precision and recall.
+
+### Area Under the Receiver Operating Characteristic (ROC) Curve (AUC-ROC):
+
+- **Definition:** Represents the trade-off between true positive rate and false positive rate at various thresholds.
+- **Importance:** Provides a comprehensive summary of model performance; a higher AUC-ROC indicates better overall performance.
+
+### Specificity:
+
+- **Definition:** The proportion of non-default cases that are correctly predicted.
+- **Importance:** Focuses on true negatives; helps minimize false alarms for likely repaid loans.
+
+### Profitability Metrics:
+
+- **Definition:** Metrics directly related to the financial impact of model predictions, considering gains and losses.
+- **Importance:** Business goals may include net profit, return on investment, or other financial performance indicators.
 
