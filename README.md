@@ -205,3 +205,38 @@ In the context of predicting the probability of loan default for a vehicle loan,
 - **Definition:** Metrics directly related to the financial impact of model predictions, considering gains and losses.
 - **Importance:** Business goals may include net profit, return on investment, or other financial performance indicators.
 
+# Deliverable 2
+
+## S3 Bucket Setup
+- **Bucket Creation:** Created an S3 bucket named "loandefaultpredictionuncc".
+- **Folder Structure:** Organized project data within the bucket under the "Datasource" folder.
+
+## AWS Athena Configuration
+- **Table Creation:** Defined a table in Athena using DDL with predefined data attributes.
+- **Time-based Analysis:** Conducted exploratory data analysis focusing on time-related patterns.
+
+## Data Analysis
+- **Credit History:** Analyzed credit history data, focusing on various aspects.
+- **CNS Score Analysis:** Investigated the count of customers with specific CNS Scores.
+
+## AWS Glue Operations
+- **Crawlers Setup:** Configured crawlers to catalog and structure data stored in S3.
+- **ETL Pipeline:** Designed a Glue ETL pipeline for data processing.
+
+## Data Processing
+- **Filtering Records:** Removed records with a disbursed amount below $15,000.
+- **Removing Duplicates:** Eliminated duplicate entries from the dataset.
+- **New Column Addition:** Introduced a column calculating "Available amount" (sanctioned - disbursed).
+
+## QuickSight Visualization (Issue Encountered)
+- **Access Issue:** Facing difficulties accessing QuickSight for data visualization.
+    - *Troubleshooting:* Checked IAM permissions, S3 bucket access, and QuickSight configurations.
+
+## Documentation
+- **Readme File:** Compiled a readme file to document the setup steps and encountered issues.
+    - *Format Details:* Included headings and subpoints for each stage of the project setup.
+
+
+
+
+
