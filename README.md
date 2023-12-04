@@ -282,22 +282,6 @@ In the context of predicting the probability of loan default for a vehicle loan,
 14. **Chart Types Used**
     - Employed Line charts, Area charts, Pie charts, Tree maps, Vertical bar charts for visualization purposes.
 
-## Summary Points
-
-- **Data Preparation**
-  - Handled missing values using SimpleImputer.
-  - Encoded categorical data for model compatibility.
-  - Transformed date columns and managed outliers effectively.
-
-- **Modeling and Evaluation**
-  - Utilized Random Forest for model evaluation and prediction.
-  - Evaluated the model's performance using various metrics.
-
-- **Data Analysis and Visualization**
-  - Conducted comprehensive data analysis using diverse visualizations.
-  - Used QuickSight for dashboard creation and visualization sharing.
-
-
 
 
 
