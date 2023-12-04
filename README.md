@@ -236,6 +236,67 @@ In the context of predicting the probability of loan default for a vehicle loan,
 - **Readme File:** Compiled a readme file to document the setup steps and encountered issues.
     - *Format Details:* Included headings and subpoints for each stage of the project setup.
 
+# Deliverable 3
+
+1. **Installing Necessary Packages**
+   - Installed required packages for data analysis and machine learning.
+
+2. **Loading Data from S3 Bucket**
+   - Retrieved data for evaluation and validation from an S3 bucket.
+
+3. **Checking and Describing Train Dataset**
+   - Examined the train dataset using head and dataset information to understand its structure.
+
+4. **Test Dataset Information**
+   - Checked the test dataset using head to gain insights into its contents.
+
+5. **Handling Null Values**
+   - Calculated the percentage of null values in both train and test datasets.
+   - Used SimpleImputer to eliminate null values in columns.
+   - Ensured no remaining null values in both datasets.
+
+6. **Encoding Categorical Data**
+   - Converted categorical objects into numerical values using label encoding.
+
+7. **Date Columns Transformation**
+   - Converted date columns into datetime objects for better analysis.
+
+8. **Handling Outliers**
+   - Detected and replaced outliers with median values to ensure data consistency.
+
+9. **Feature Creation**
+   - Calculated the age in both test and training datasets.
+
+10. **Model Evaluation and Prediction**
+    - Employed Random Forest techniques to evaluate the model and predict values.
+
+11. **Evaluation Metrics**
+    - Analyzed evaluation metrics for assessing model performance.
+
+12. **Data Visualization**
+    - Utilized various visualizations like heatmap, scatter plots, box plots, bar charts, etc., to analyze data relationships and patterns.
+
+13. **Integration with QuickSight**
+    - Provided a QuickSight link for accessing visualizations created.
+
+14. **Chart Types Used**
+    - Employed Line charts, Area charts, Pie charts, Tree maps, Vertical bar charts for visualization purposes.
+
+## Summary Points
+
+- **Data Preparation**
+  - Handled missing values using SimpleImputer.
+  - Encoded categorical data for model compatibility.
+  - Transformed date columns and managed outliers effectively.
+
+- **Modeling and Evaluation**
+  - Utilized Random Forest for model evaluation and prediction.
+  - Evaluated the model's performance using various metrics.
+
+- **Data Analysis and Visualization**
+  - Conducted comprehensive data analysis using diverse visualizations.
+  - Used QuickSight for dashboard creation and visualization sharing.
+
 
 
 
