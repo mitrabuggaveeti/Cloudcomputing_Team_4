@@ -283,5 +283,73 @@ In the context of predicting the probability of loan default for a vehicle loan,
     - Employed Line charts, Area charts, Pie charts, Tree maps, Vertical bar charts for visualization purposes.
 
 
+# Deliverable 4
+
+## AWS Cost Analysis and Optimization
+
+## Overview
+
+Analyzing the cost of running AWS resources involves several factors, including the type and quantity of resources used, data transfer costs, storage costs, and compute costs.
+
+### Cost Considerations
+
+- **S3 Bucket:**
+  - Storage costs based on data stored and requests made (PUT, GET, etc.).
+  
+- **AWS Athena:**
+  - Charges based on data scanned by queries.
+
+- **Data Analysis:**
+  - Compute resources usage for complex analysis (e.g., AWS Glue, Athena).
+  
+- **AWS Glue:**
+  - Costs related to ETL jobs, processing time, and additional features.
+  
+- **Data Processing:**
+  - Costs for processing resources and additional services used during data manipulation.
+  
+- **AWS SageMaker:**
+  - Costs based on instances for model training/deployment, data storage, and other features.
+  
+- **Amazon QuickSight:**
+  - Costs linked to SPICE capacity, author, and reader access.
+
+### Cost Breakdown
+
+| Service           | Monthly Cost (USD) | Usage                                 |
+|-------------------|--------------------|---------------------------------------|
+| Amazon S3         | $1.29              | Standard storage, requests, S3 Select  |
+| AWS Athena        | $3.63              | Data scanned per query, total queries  |
+| AWS Glue          | $6.60              | DPUs for Spark and Python Shell jobs  |
+| Amazon SageMaker  | $27.54             | ML instance, Studio Notebook usage    |
+| Amazon QuickSight | $31.40             | SPICE capacity, authors, readers      |
+
+**Total Monthly Cost:** $70.46 USD
+
+**Total 12 Months Cost:** $845.52 USD (including upfront costs)
+
+## Cost Optimization Strategies
+
+### S3 Bucket:
+- Lifecycle Policies: Transition data to lower-cost storage classes based on access frequency.
+- S3 Intelligent-Tiering: Automatically move objects between access tiers.
+
+### AWS Athena:
+- Partitioning and Data Organization.
+- Optimize Queries to minimize data scanning.
+
+### AWS Glue:
+- Monitor DPU Usage and scale resources accordingly.
+- Optimize ETL Jobs for efficiency.
+
+### AWS SageMaker:
+- Use Spot Instances for training jobs.
+- Right-size Instances based on workload requirements.
+
+### Amazon QuickSight:
+- Monitor User Access and adjust permissions.
+- Optimize Data Queries to reduce retrieval and processing costs.
+
+Continuous monitoring using tools like AWS Cost Explorer and Trusted Advisor can provide further insights and tailored recommendations for cost optimization based on usage patterns.
 
 
