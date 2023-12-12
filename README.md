@@ -352,4 +352,8 @@ Analyzing the cost of running AWS resources involves several factors, including 
 
 Continuous monitoring using tools like AWS Cost Explorer and Trusted Advisor can provide further insights and tailored recommendations for cost optimization based on usage patterns.
 
+# Project Final Deliverable
+
+- Video Presention : https://drive.google.com/file/d/1EQ04jWdsgpJb4aqkeSznILOcAGSEFCqb/view?usp=sharing
+
 
